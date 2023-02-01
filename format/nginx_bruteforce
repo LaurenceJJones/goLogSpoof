@@ -1,0 +1,3 @@
+{{ range . -}}
+{{ .IP }} is bad {{ .BadIP }}
+{{ end -}}
